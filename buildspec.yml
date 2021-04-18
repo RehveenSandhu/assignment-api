@@ -5,7 +5,6 @@ phases:
       nodejs: 12
     commands:
       - npm install
-      - npm run disable-serverless-usage-tracking
   build:
     commands:
-      - npm run deploy:cicd
+      - npm run deploy
